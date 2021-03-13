@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/******************** NAVBAR **********************/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo img {
+  width: 80px;
+  height: 50px;
+  margin-left: 50px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.menu li a {
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 2px;
+}
+.menu li a:hover {
+  border-bottom: 2px solid black;
+}
+.cart {
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 500;
+  margin-right: 50px;
+}
+/******************** ART SECTION ****************/
+
+.art-section {
+  margin: 0 auto;
+  height: 100vh;
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+}
+.art-container-row img {
+  box-shadow: -5px 5px 20px 5px grey;
+}
+.right-row {
+  width: 80%;
+  margin: 0 auto;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+}
+.price span {
+  margin-left: 90px;
+}
+.price {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.art-container-row p {
+  margin-top: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.readmore {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+  display: inline;
+}
+input {
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.add-to-cart {
+  display: block;
+  outline: none;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(-20deg, rgb(46, 40, 40), rgb(34, 33, 33));
+  padding: 15px 140px;
+  font-family: "Segoe UI", sans-serif;
+}
+.size {
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+/*************** FEATURE SECTION ************/
+
+.feature-container {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: auto auto;
+  font-family: "Open Sans", sans-serif;
+}
+.feature-one,
+.feature-two {
+  width: 90%;
+  margin: 0 auto;
+}
+.feature-two {
+  margin-top: 80px;
+}
+
+.feature-row img {
+  height: 500px;
+  width: auto;
+  margin: 0 auto;
+}
+.feature-row p {
+  margin-top: 40px;
+}
+
+/*********** HERO IMAGE*********/
+
+.hero-img img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 80px 0;
+}
+
+/**************** FOOTER & Related Art ************/
+.related-center {
+  text-align: center;
+  padding: 25px;
+}
+.related-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.related-row {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.related-row p {
+  margin: 10px;
+}
+.related-art {
+  width: 90%;
+  margin: 0 auto;
+}
+.related-row img {
+  margin: 30px;
+  box-shadow: -5px 5px 20px 5px grey;
+}
+.logos-container {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.logos-container i {
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid grey;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px;
+}
